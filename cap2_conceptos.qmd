@@ -1,0 +1,11 @@
+---
+title: "Cap 2- Preguntas conceptuales"
+format: html
+editor: visual
+---
+
+# Capítulo 2 - Stadistical Learning
+
+## Preguntas Concepctuales
+
+1. 
