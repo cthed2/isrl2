@@ -1,6 +1,6 @@
 ---
 title: "Cap 2- Preguntas conceptuales"
-format: html
+format: pdf
 editor: visual
 ---
 
@@ -8,4 +8,49 @@ editor: visual
 
 ## Preguntas Concepctuales
 
-1. 
+1. Para cada una de las partes (a) a (d), indique si generalmente esperaríamos que el desempeño de un método de aprendizaje estadístico flexible sea mejor o peor que un método inflexible. Justifica tu respuesta.
+
+(a) El tamaño de la muestra n es extremadamente grande y el número de predictores p es pequeño.
+(b) El número de predictores p es extremadamente grande y el número de observaciones n es pequeño.
+(c) La relación entre los predictores y la respuesta es altamente no lineal.
+(d) La varianza de los términos de error, es decir, σ2 = Var(ϵ), es extremadamente alta
+
+
+2. Explique si cada escenario es un problema de clasificación o de regresión, e indique si estamos más interesados en la inferencia o la predicción. Finalmente, proporcione n y p.
+
+(a) Recopilamos un conjunto de datos sobre las 500 principales empresas de EE. UU. Para cada empresa registramos las ganancias, el número de empleados, la industria y el salario del director ejecutivo. Estamos interesados en entender qué factores afectan el salario del CEO.
+
+(b) Estamos considerando lanzar un nuevo producto y deseamos saber si será un éxito o un fracaso. Recopilamos datos sobre 20 productos similares que se lanzaron anteriormente. Para cada producto, hemos registrado si fue un éxito o un fracaso, el precio cobrado por el producto, el presupuesto de marketing, el precio de la competencia y otras diez variables.
+
+(c) Estamos interesados en predecir el % de cambio en el tipo de cambio USD/Euro en relación con los cambios semanales en los mercados bursátiles mundiales. Por lo tanto, recopilamos datos semanales para todo 2012. Para cada semana, registramos el % de cambio en el USD/Euro, el % de cambio en el mercado estadounidense, el % de cambio en el mercado británico y el % de cambio en el mercado alemán.
+
+3.Ahora revisamos la descomposición de sesgo-varianza.
+
+(a) Proporcione un bosquejo del sesgo típico (cuadrado), la varianza, el error de entrenamiento, el error de prueba y las curvas de error de Bayes (o irreducible), en una sola gráfica, a medida que pasamos de métodos de aprendizaje estadístico menos flexibles hacia métodos más enfoques flexibles. El eje x debe representar la cantidad de flexibilidad en el método y el eje y debe representar los valores de cada curva. Debería haber cinco curvas. Asegúrate de etiquetar cada uno.
+
+(b) Explique por qué cada una de las cinco curvas tiene la forma que se muestra en la parte (a).
+
+4. Ahora pensará en algunas aplicaciones de la vida real para el aprendizaje estadístico.
+
+(a) Describa tres aplicaciones de la vida real en las que la clasificación podría ser útil. Describa la respuesta, así como los predictores. ¿El objetivo de cada aplicación es la inferencia o la predicción? Explica tu respuesta.
+
+(b) Describa tres aplicaciones de la vida real en las que la regresión podría ser útil. Describa la respuesta, así como los predictores. ¿El objetivo de cada aplicación es la inferencia o la predicción? Explica tu respuesta.
+
+(c) Describa tres aplicaciones de la vida real en las que el análisis de conglomerados podría ser útil.
+
+5. ¿Cuáles son las ventajas y desventajas de un enfoque muy flexible (frente a uno menos flexible) para la regresión o la clasificación? ¿Bajo qué circunstancias podría preferirse un enfoque más flexible a un enfoque menos flexible? ¿Cuándo podría preferirse un enfoque menos flexible?
+
+6. Describir las diferencias entre un enfoque de aprendizaje estadístico paramétrico y no paramétrico. ¿Cuáles son las ventajas de un enfoque paramétrico de regresión o clasificación (en oposición a un enfoque no paramétrico)? ¿Cuáles son sus desventajas?
+
+7. La tabla siguiente proporciona un conjunto de datos de entrenamiento que contiene seis observaciones, tres predictores y una variable de respuesta cualitativa.
+
+Supongamos que deseamos utilizar este conjunto de datos para realizar una predicción de Y cuando
+X1 = X2 = X3 = 0 utilizando K vecinos más cercanos.
+
+(a) Calcule la distancia euclídea entre cada observación y el punto de prueba, X1 = X2 = X3 = 0.
+
+(b) ¿Cuál es nuestra predicción con K = 1? ¿Por qué?
+
+(c) ¿Cuál es nuestra predicción con K = 3? ¿Por qué?
+
+(d) Si la frontera de decisión de Bayes en este problema es altamente no lineal, entonces ¿esperaríamos que el mejor valor para K fuera grande o pequeño? ¿Por qué?
