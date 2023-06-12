@@ -47,3 +47,10 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Archivos innecesarios 
+*.html
+*.pdf
+
+# Carpetas generadas al mommento de renderizar:
+cap2_conceptos_files
